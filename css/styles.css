@@ -32,7 +32,7 @@ p {
 
 /* Sections */
 .colored-section {
-  background-color: #FF4C68;
+  background-color: #FF4A4A;
   color: #FFF;
 }
 
@@ -59,6 +59,10 @@ p {
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
+}
+
+.nav-link:hover {
+  font-weight: 600;
 }
 
 /* Title Section */
@@ -92,17 +96,17 @@ p {
 }
 
 .icon {
-  color: #EF8172;
+  color: #FF8243;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #FF4C68;
+  color: #FF4A4A;
 }
 
 /* Testimonials Section */
 #testimonials {
-  background-color: #EF8172;
+  background-color: #FF8243;
 }
 
 .testimonial-text {
@@ -117,7 +121,7 @@ p {
 }
 
 #press {
-  background-color: #EF8172;
+  background-color: #FF8243;
   padding-bottom: 3%;
 }
 
@@ -144,6 +148,10 @@ p {
 
 .social-icon {
   margin: 20px 10px;
+}
+
+#footer p {
+  font-size: 1.2rem;
 }
 
 @media (max-width: 1100px) {
